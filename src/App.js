@@ -9,7 +9,7 @@ import content from './content'
 function App() {
   return (
     <Container centerContent maxW="full">
-      <Heading>{content.page_title}</Heading>
+      <Heading m="12">{content.page_title}</Heading>
       <Grid />
     </Container>
   );
