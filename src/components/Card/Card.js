@@ -1,12 +1,16 @@
 import { Box } from '@chakra-ui/react'
 
 // Components
+import MilestoneCard from './components/MilestoneCard'
 import NoteCard from './components/NoteCard'
 import StatsCard from './components/StatsCard'
 
 export default function Card({ type, ...props}) {
   let renderCardType
   switch(type) {
+    case 'milestone':
+      renderCardType = (<MilestoneCard {...props} />)
+      break
     case 'note':
       renderCardType = (<NoteCard {...props} />)
       break

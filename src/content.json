@@ -48,6 +48,11 @@
       "from": "Kevan 8"
     },
     {
+      "type": "milestone",
+      "milestone_action": "Joined OGP",
+      "milestone_date": "Jan 2018"
+    },
+    {
       "type": "note",
       "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mi nisl, pellentesque sit amet maximus id.",
       "from": "Kevan 9"
