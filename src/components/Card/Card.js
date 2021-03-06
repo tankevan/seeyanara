@@ -1,13 +1,17 @@
-import { Box, Divider } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 
 // Components
 import NoteCard from './components/NoteCard'
+import StatsCard from './components/StatsCard'
 
-export default function Card({ type, message, from}) {
+export default function Card({ type, ...props}) {
   let renderCardType
   switch(type) {
     case 'note':
-      renderCardType = (<NoteCard message={message} from={from} />)
+      renderCardType = (<NoteCard {...props} />)
+      break
+    case 'stats':
+      renderCardType = (<StatsCard {...props} />)
       break
     default:
       // skip card if no 'type' defined
@@ -16,7 +20,7 @@ export default function Card({ type, message, from}) {
   }
   return (
     <>
-      <Box className="card" maxW="sm" borderWidth="1px" borderColor="black" borderRadius="lg">
+      <Box className="card" w="sm" borderWidth="1px" borderColor="black" borderRadius="lg">
         {renderCardType}
       </Box>
     </>

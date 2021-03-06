@@ -28,7 +28,7 @@ export default function Grid(props) {
 
   const cardData = content.cards
 
-  const renderCards = _.map(cardData, (card) => <Card type={card.type} message={card.message} from={card.from} />)
+  const renderCards = _.map(cardData, (cardProps) => <Card {...cardProps} />)
 
   return (
     <Container className="grid" maxW="full">

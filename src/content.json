@@ -2,6 +2,12 @@
   "page_title": "See ya later, Alligator!",
   "cards": [
     {
+      "type": "stats",
+      "emoji": "📮",
+      "statistic": "10M",
+      "statistic_description": "Emails Sent By Postman.gov.sg"
+    },
+    {
       "type": "note",
       "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mi nisl, pellentesque sit amet maximus id, ultrices sed urna. Mauris tempus molestie faucibus. Praesent nisl lectus, commodo egestas mauris quis, lobortis pretium ex. Etiam pellentesque quam nec dolor aliquet lobortis. Phasellus ac sapien ut lorem vestibulum eleifend. Proin pretium dapibus libero non iaculis. Vivamus vehicula, neque sit amet aliquam vulputate.",
       "from": "Kevan"
