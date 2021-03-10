@@ -28,7 +28,7 @@ export default function Card({ type, ...props}) {
   }
   return (
     <>
-      <Box boxShadow="sm" className="card" w="sm" borderWidth="1px" borderColor="black" borderRadius="xl">
+      <Box boxShadow="sm" className="card" w="90%" minW="200px" maxW="sm" borderWidth="1px" borderColor="black" borderRadius="xl">
         {renderCardType}
       </Box>
     </>
