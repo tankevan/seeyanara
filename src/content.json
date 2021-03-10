@@ -1,6 +1,11 @@
 {
   "page_title": "See ya later, Alligator!",
   "cards": [
+    { 
+      "type": "image",
+      "filename": "test_image.png",
+      "caption": "We will miss the react logo."
+    },
     {
       "type": "stats",
       "emoji": "📮",
