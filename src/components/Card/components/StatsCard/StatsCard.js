@@ -3,9 +3,9 @@ import { Box, Container, Heading, Text } from '@chakra-ui/react'
 // Components
 import ConfettiCanvas from './components/ConfettiCanvas'
 
-export default function StatsCard({ emoji, statistic, statistic_description }) {
+export default function StatsCard({ emoji, statistic, statistic_description, key }) {
   return (
-    <Container w="full" centerContent p="12">
+    <Container key={key} w="full" centerContent p="12">
       <ConfettiCanvas />
       <Box pb="8">
         <Heading size="2xl">{emoji}</Heading>

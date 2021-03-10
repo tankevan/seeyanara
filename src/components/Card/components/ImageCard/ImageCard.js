@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react'
 
-export default function ImageCard({ filename, caption }) {
+export default function ImageCard({ filename, caption, key }) {
   // Error handle if filename is not found
   let Image
   try {
@@ -14,11 +14,11 @@ export default function ImageCard({ filename, caption }) {
   }
 
   return (
-    <>
+    <div key={key}>
       {Image}
       <Box p="6">
         {caption}
       </Box>
-    </>
+    </div>
   )
 }

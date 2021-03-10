@@ -28,7 +28,7 @@ export default function Grid(props) {
 
   const cardData = content.cards;
 
-  const renderCards = _.map(cardData, (cardProps) => <Card {...cardProps} />);
+  const renderCards = _.map(cardData, (cardProps, idx) => <Card {...cardProps} key={`card-${idx}`}/>);
 
   return (
     <Box className="grid" w="100%">

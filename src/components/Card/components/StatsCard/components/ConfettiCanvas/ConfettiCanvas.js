@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
 import confetti from 'canvas-confetti'
 
 import './ConfettiCanvas.scss'
@@ -13,13 +13,15 @@ function pickRandomFromArray(arr) {
 }
 
 export default function ConfettiCanvas () {
-  const canvasRef = React.useRef(null)
+  const canvasRef = useRef(null)
 
-  let fireConfetti
+  // Some warning appears if I don't store the mutable value as a ref
+  const fireConfettiRef = useRef(null)
   useEffect(() => {
-    fireConfetti = confetti.create(canvasRef.current, {
+    fireConfettiRef.current = confetti.create(canvasRef.current, {
       resize: true,
     })
+
 
     // Start after 10s for the element of surprise    
     setTimeout(() => {
@@ -36,7 +38,7 @@ export default function ConfettiCanvas () {
           '#ff36ff'
         ])
   
-        fireConfetti({
+        fireConfettiRef.current({
           particleCount: 1,
           startVelocity: 0,
           origin: {
@@ -54,7 +56,7 @@ export default function ConfettiCanvas () {
   }, [canvasRef])
 
   const clickCanvas = () => {
-    fireConfetti({
+    fireConfettiRef.current({
       particleCount: 150,
       spread: 120,
       origin: {
@@ -64,6 +66,6 @@ export default function ConfettiCanvas () {
   }
 
   return (
-    <canvas onClick={clickCanvas} class="confetti-canvas" ref={canvasRef} />
+    <canvas onClick={clickCanvas} className="confetti-canvas" ref={canvasRef} />
   )
 }

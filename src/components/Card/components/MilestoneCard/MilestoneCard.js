@@ -1,9 +1,8 @@
-import _ from 'lodash'
 import { Box, Container, Heading, Text } from '@chakra-ui/react'
 
-export default function MilestoneCard({ milestone_action, milestone_date }) {
+export default function MilestoneCard({ milestone_action, milestone_date, key }) {
   return (
-    <Container w="full" centerContent p="12">
+    <Container key={key} w="full" centerContent p="12">
       <Box pb="2">
         <Text color="gray.300" fontSize="lg" fontWeight="bold">{milestone_action}</Text>
       </Box>

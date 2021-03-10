@@ -10,6 +10,9 @@ import Footer from './components/Footer';
 import content from "./content";
 
 function App() {
+  // Set page title
+  document.title = content.page_title
+
   const HeadingMarginBreakpoints = useBreakpointValue({ base: "12", lg: "24" })
 
   return (
