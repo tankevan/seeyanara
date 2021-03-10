@@ -1,4 +1,4 @@
-import { Box, Divider } from '@chakra-ui/react'
+import { Box, Divider, Text  } from '@chakra-ui/react'
 
 export default function NoteCard({ message, from }) {
   return (
@@ -6,9 +6,9 @@ export default function NoteCard({ message, from }) {
       <Box p="6">
         {message}
       </Box>
-      <Divider />
-      <Box p="6">
-        {from}
+      <Box py="6" px="6">
+        <Text fontWeight="semibold" color="gray.400">{from}</Text>
+        
       </Box>
     </>
   )

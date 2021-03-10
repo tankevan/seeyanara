@@ -15,7 +15,7 @@ export default function Grid(props) {
       const grid = new MiniGrid({
         container: '.grid',
         item: '.card',
-        gutter: 6,
+        gutter: 20,
       })
       grid.mount()
     }
