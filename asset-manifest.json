@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/seeyanara/static/css/main.20e07dc1.chunk.css",
-    "main.js": "/seeyanara/static/js/main.ecf3002d.chunk.js",
-    "main.js.map": "/seeyanara/static/js/main.ecf3002d.chunk.js.map",
+    "main.css": "/seeyanara/static/css/main.154b6dbc.chunk.css",
+    "main.js": "/seeyanara/static/js/main.f221d790.chunk.js",
+    "main.js.map": "/seeyanara/static/js/main.f221d790.chunk.js.map",
     "runtime-main.js": "/seeyanara/static/js/runtime-main.7ddad9f7.js",
     "runtime-main.js.map": "/seeyanara/static/js/runtime-main.7ddad9f7.js.map",
-    "static/js/2.7c034968.chunk.js": "/seeyanara/static/js/2.7c034968.chunk.js",
-    "static/js/2.7c034968.chunk.js.map": "/seeyanara/static/js/2.7c034968.chunk.js.map",
+    "static/js/2.1bb77f7c.chunk.js": "/seeyanara/static/js/2.1bb77f7c.chunk.js",
+    "static/js/2.1bb77f7c.chunk.js.map": "/seeyanara/static/js/2.1bb77f7c.chunk.js.map",
     "index.html": "/seeyanara/index.html",
-    "static/css/main.20e07dc1.chunk.css.map": "/seeyanara/static/css/main.20e07dc1.chunk.css.map",
-    "static/js/2.7c034968.chunk.js.LICENSE.txt": "/seeyanara/static/js/2.7c034968.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/seeyanara/static/media/gradientbg.8670d68c.png"
+    "static/css/main.154b6dbc.chunk.css.map": "/seeyanara/static/css/main.154b6dbc.chunk.css.map",
+    "static/js/2.1bb77f7c.chunk.js.LICENSE.txt": "/seeyanara/static/js/2.1bb77f7c.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/seeyanara/static/media/gradientbg.2f1f0821.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7ddad9f7.js",
-    "static/js/2.7c034968.chunk.js",
-    "static/css/main.20e07dc1.chunk.css",
-    "static/js/main.ecf3002d.chunk.js"
+    "static/js/2.1bb77f7c.chunk.js",
+    "static/css/main.154b6dbc.chunk.css",
+    "static/js/main.f221d790.chunk.js"
   ]
 }
