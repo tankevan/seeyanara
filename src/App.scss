@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
   color: white !important;
@@ -23,7 +30,7 @@ body {
   //   #00ced8,
   //   #12ffe3
   // ) !important;
-  background-size: contain !important;
+  background-size: cover !important;
 }
 
 .card {
