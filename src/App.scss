@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  color: white !important;
+  font-size: 16px !important;
+  line-height: 28px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.5px;
+  background-image: url(./img/gradientbg.png) !important;
+  // background-image: linear-gradient(
+  //   to right top,
+  //   #33137c,
+  //   #27166d,
+  //   #1d175e,
+  //   #16164f,
+  //   #11143f,
+  //   #0d234f,
+  //   #06335d,
+  //   #00426b,
+  //   #006e99,
+  //   #009dbf,
+  //   #00ced8,
+  //   #12ffe3
+  // ) !important;
+  background-size: contain !important;
+}
+
+.card {
+  background-color: rgb(39 48 90 / 40%) !important;
+  transition: background-color 0.4s !important;
+  border: 1px solid rgb(95 97 134 / 40%) !important;
+
+  &:after {
+    content: "";
+    width: 75%;
+    height: 75%;
+    transform: translate(12.5%, 12.5%);
+    filter: blur(100px);
+  }
+
+  &::hover {
+    background-color: rgba(25, 37, 59, 0.6) !important;
+    cursor: pointer !important;
+  }
+}

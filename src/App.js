@@ -1,5 +1,8 @@
 import { Container, Heading } from '@chakra-ui/react'
 
+import './App.scss';
+
+
 // Components
 import Grid from './components/Grid'
 
@@ -9,7 +12,7 @@ import content from './content'
 function App() {
   return (
     <Container centerContent maxW="full">
-      <Heading m="12">{content.page_title}</Heading>
+      <Heading as="h1" size="2xl" m="12">{content.page_title}</Heading>
       <Grid />
     </Container>
   );
