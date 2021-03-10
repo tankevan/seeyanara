@@ -8,7 +8,7 @@ export default function NoteCard({ message, from }) {
       </Box>
       {/* <Divider /> */}
       <Box p="6">
-        <Text fontWeight="semibold">{from}</Text>
+        <Text fontWeight="semibold" color="gray.400">{from}</Text>
         
       </Box>
     </>

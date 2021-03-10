@@ -10,7 +10,7 @@ export default function StatsCard({ emoji, statistic, statistic_description }) {
         <Heading size="4xl">{statistic}</Heading>
       </Box>
       <Box>
-        <Text color="gray.500" fontWeight="semibold">{statistic_description}</Text>
+        <Text color="gray.300" fontWeight="semibold">{statistic_description}</Text>
       </Box>
     </Container>
   )
