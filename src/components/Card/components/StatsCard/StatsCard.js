@@ -1,8 +1,12 @@
 import { Box, Container, Heading, Text } from '@chakra-ui/react'
 
+// Components
+import ConfettiCanvas from './components/ConfettiCanvas'
+
 export default function StatsCard({ emoji, statistic, statistic_description }) {
   return (
     <Container w="full" centerContent p="12">
+      <ConfettiCanvas />
       <Box pb="8">
         <Heading size="2xl">{emoji}</Heading>
       </Box>
