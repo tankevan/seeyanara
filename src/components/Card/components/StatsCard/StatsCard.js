@@ -8,13 +8,13 @@ export default function StatsCard({ emoji, statistic, statistic_description, key
     <Container key={key} w="full" centerContent p="12">
       <ConfettiCanvas />
       <Box pb="8">
-        <Heading size="2xl">{emoji}</Heading>
+        <Heading align="center" size="2xl">{emoji}</Heading>
       </Box>
       <Box pb="1">
-        <Heading size="4xl">{statistic}</Heading>
+        <Heading align="center" size="4xl">{statistic}</Heading>
       </Box>
       <Box>
-        <Text color="gray.300" fontWeight="semibold">{statistic_description}</Text>
+        <Text align="center" color="gray.300" fontWeight="semibold">{statistic_description}</Text>
       </Box>
     </Container>
   )

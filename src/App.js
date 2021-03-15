@@ -17,7 +17,7 @@ function App() {
 
   return (
     <Container maxW="full" centerContent>
-      <Heading as="h1" size="2xl" m={HeadingMarginBreakpoints}>
+      <Heading align="center" as="h1" size="3xl" m={HeadingMarginBreakpoints}>
         {content.page_title}
       </Heading>
       <Grid />
